@@ -1,0 +1,45 @@
+{
+  "Nodes": [
+    {
+      "Inputs": [],
+      "Outputs": [
+        "7decf1fc-1ec0-4ea6-8636-3077e58f66d4"
+      ],
+      "Id": "foobar",
+      "Type": "TextNode",
+      "Components": [
+        {
+          "Text": "Yay!",
+          "Type": "TextComponent"
+        }
+      ]
+    },
+    {
+      "Inputs": [
+        "foobar"
+      ],
+      "Outputs": [],
+      "Id": "7decf1fc-1ec0-4ea6-8636-3077e58f66d4",
+      "Type": "TextNode",
+      "Components": [
+        {
+          "Text": "",
+          "Type": "TextComponent"
+        }
+      ]
+    },
+    {
+      "Inputs": [],
+      "Outputs": [],
+      "Id": "4dab6c2c-bc36-4bf6-92ba-8360cdb555f6",
+      "Type": "TextNode",
+      "Components": [
+        {
+          "Text": "",
+          "Type": "TextComponent"
+        }
+      ]
+    }
+  ],
+  "SchemaVersion": 2
+}

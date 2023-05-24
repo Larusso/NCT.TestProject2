@@ -1,0 +1,50 @@
+{
+  "SchemaVersion": 2,
+  "Id": "5b77772f-0abf-469c-a4ad-9d063f88f235",
+  "Nodes": [
+    {
+      "Inputs": [],
+      "Outputs": [
+        "bar"
+      ],
+      "Id": "foo",
+      "Type": "TextNode",
+      "Components": [
+        {
+          "Text": "Foo",
+          "Type": "TextComponent"
+        }
+      ]
+    },
+    {
+      "Inputs": [
+        "foo"
+      ],
+      "Outputs": [
+        "foobar"
+      ],
+      "Id": "bar",
+      "Type": "TextNode",
+      "Components": [
+        {
+          "Text": "Bar",
+          "Type": "TextComponent"
+        }
+      ]
+    },
+    {
+      "Inputs": [
+        "bar"
+      ],
+      "Outputs": [],
+      "Id": "foobar",
+      "Type": "TextNode",
+      "Components": [
+        {
+          "Text": "Foobar",
+          "Type": "TextComponent"
+        }
+      ]
+    }
+  ]
+}

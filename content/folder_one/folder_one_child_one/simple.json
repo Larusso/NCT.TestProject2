@@ -1,0 +1,139 @@
+{
+  "Nodes": [
+    {
+      "Inputs": [],
+      "Outputs": [
+        "2791faa0-176f-4cab-afb7-3134b09a9b60"
+      ],
+      "Id": "foobar",
+      "Type": "TextNode",
+      "Components": [
+        {
+          "Text": "WHAT IS IT?",
+          "Type": "TextComponent"
+        }
+      ]
+    },
+    {
+      "Inputs": [
+        "foobar"
+      ],
+      "Outputs": [
+        "6f79a260-e821-4ba4-843f-bf1b0246eaf8"
+      ],
+      "Id": "2791faa0-176f-4cab-afb7-3134b09a9b60",
+      "Type": "TextNode",
+      "Components": [
+        {
+          "Text": "SIR, WHERE'S MY CAR?",
+          "Type": "TextComponent"
+        }
+      ]
+    },
+    {
+      "Inputs": [
+        "2791faa0-176f-4cab-afb7-3134b09a9b60"
+      ],
+      "Outputs": [
+        "ce256d4a-667e-4d0c-9e49-38849149be6f",
+        "c0d8ceb7-337b-453a-b265-82344187afa1"
+      ],
+      "Id": "6f79a260-e821-4ba4-843f-bf1b0246eaf8",
+      "Type": "TextNode",
+      "Components": [
+        {
+          "Text": "DID YOU TRY LOOKING?",
+          "Type": "TextComponent"
+        },
+        {
+          "Type": "ChoiceRootComponent"
+        }
+      ]
+    },
+    {
+      "Inputs": [
+        "6f79a260-e821-4ba4-843f-bf1b0246eaf8"
+      ],
+      "Outputs": [
+        "b39d8617-92b1-41fc-86d9-9e40161c5eee"
+      ],
+      "Id": "ce256d4a-667e-4d0c-9e49-38849149be6f",
+      "Type": "TextNode",
+      "Components": [
+        {
+          "Text": "YES, OF COURSE I DID!",
+          "Type": "TextComponent"
+        }
+      ]
+    },
+    {
+      "Inputs": [
+        "ce256d4a-667e-4d0c-9e49-38849149be6f"
+      ],
+      "Outputs": [],
+      "Id": "b39d8617-92b1-41fc-86d9-9e40161c5eee",
+      "Type": "TextNode",
+      "Components": [
+        {
+          "Text": "VERY WELL. THEN LET US LOOK TOGETHER!",
+          "Type": "TextComponent"
+        }
+      ]
+    },
+    {
+      "Inputs": [],
+      "Outputs": [],
+      "Id": "01ba5d82-9d13-4534-a806-86c74e14e8e1",
+      "Type": "TextNode",
+      "Components": [
+        {
+          "Text": "WHAT IS IT?",
+          "Type": "TextComponent"
+        }
+      ]
+    },
+    {
+      "Inputs": [],
+      "Outputs": [],
+      "Id": "2a08528f-c653-4819-b3ef-e0a0049c5953",
+      "Type": "TextNode",
+      "Components": [
+        {
+          "Text": "WHAT IS IT?",
+          "Type": "TextComponent"
+        }
+      ]
+    },
+    {
+      "Inputs": [
+        "6f79a260-e821-4ba4-843f-bf1b0246eaf8"
+      ],
+      "Outputs": [
+        "151045b6-7587-4312-9337-9b7c00248aac"
+      ],
+      "Id": "c0d8ceb7-337b-453a-b265-82344187afa1",
+      "Type": "TextNode",
+      "Components": [
+        {
+          "Text": "NO, I REFUSED TO TAKE ACTION WITHOUT CONSULTING YOU FIRST!",
+          "Type": "TextComponent"
+        }
+      ]
+    },
+    {
+      "Inputs": [
+        "c0d8ceb7-337b-453a-b265-82344187afa1"
+      ],
+      "Outputs": [],
+      "Id": "151045b6-7587-4312-9337-9b7c00248aac",
+      "Type": "TextNode",
+      "Components": [
+        {
+          "Text": "GET OUT.",
+          "Type": "TextComponent"
+        }
+      ]
+    }
+  ],
+  "SchemaVersion": 2
+}

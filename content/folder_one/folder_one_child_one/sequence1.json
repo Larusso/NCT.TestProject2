@@ -1,0 +1,33 @@
+{
+  "Nodes": [
+    {
+      "Inputs": [],
+      "Outputs": [
+        "foobar"
+      ],
+      "Id": "bar",
+      "Type": "TextNode",
+      "Components": [
+        {
+          "Text": "Bar",
+          "Type": "TextComponent"
+        }
+      ]
+    },
+    {
+      "Inputs": [
+        "bar"
+      ],
+      "Outputs": [],
+      "Id": "foobar",
+      "Type": "TextNode",
+      "Components": [
+        {
+          "Text": "Great!",
+          "Type": "TextComponent"
+        }
+      ]
+    }
+  ],
+  "SchemaVersion": 2
+}

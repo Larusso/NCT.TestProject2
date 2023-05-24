@@ -1,0 +1,18 @@
+{
+  "SchemaVersion": 2,
+  "Id": "5b77772f-0abf-469c-a4ad-9d063f88f235",
+  "Nodes": [
+    {
+      "Inputs": [],
+      "Outputs": [],
+      "Id": "foobar",
+      "Type": "TextNode",
+      "Components": [
+        {
+          "Text": "Yay!",
+          "Type": "TextComponent"
+        }
+      ]
+    }
+  ]
+}
